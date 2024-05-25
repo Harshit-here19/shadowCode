@@ -55,10 +55,14 @@ function App() {
     <>
       <div className="flex flex-row justify-between p-5 text-3xl">
         <h1 className="font-bold ">
-          Shadow-<span className="text-red-500 font-bold ">CODE 🔥</span>
+          Shadow-
+          <span className="text-purple-800 font-bold ">
+            CODE 🔥
+            <img src="/Untitled.png" alt="" />
+          </span>
         </h1>
         <a
-          href="https://github.com/dipayansarkar47/online-code-editor"
+          href="https://github.com/Harshit-here19/shadowCode"
           className="ml-auto gap-1 text-xl bg-black text-white px-2 py-1 rounded flex justify-end items-center"
           target="_blank"
           rel="noreferrer"
@@ -69,7 +73,7 @@ function App() {
       </div>
       <form onSubmit={handleSubmit} className="" method="post">
         <Editor
-          className="border-2 m-1 mx-4 h-52 shadow-xl focus:outline-none"
+          className="border-2 m-1 mx-4 h-52 shadow-xl focus:outline-none bg-black"
           value={inputText}
           onValueChange={(code) => setInputText(code)}
           highlight={(code) => highlight(code, languages.js)}
@@ -81,7 +85,7 @@ function App() {
         />
         {buttonClicked ? (
           <button
-            className="bg-red-700 py-2 px-4 rounded text-white mt-2 flex flex-row mr-6 ml-auto justify-center items-center gap-2"
+            className="bg-red-700 py-2 px-4 rounded text-white mt-8 flex flex-row mr-6 ml-auto justify-center items-center gap-2"
             type="submit"
           >
             <svg
@@ -116,7 +120,7 @@ function App() {
       {output && cpuTime && memory && (
         <div className="flex flex-col m-5 border-2 rounded shadow-xl p-2">
           <h2 className="text-2xl font-bold">Output:</h2>
-          <p className="text-green-500 text-xl font-mono py-2">{output}</p>
+          <p className="text-purple-900 text-xl font-mono py-2">{output}</p>
           <br />
           <div className="flex flex-row justify-evenly gap-4 ">
             <h3 className="w-1/2 text-center flex flex-col gap-1 justify-center items-center bg-gray-800 rounded text-white h-32 text-xl">
