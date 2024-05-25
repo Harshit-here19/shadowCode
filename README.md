@@ -1,6 +1,7 @@
 # 🧑‍💻 Online Code Editor (100+ Languages)
 
-![image](https://github.com/dipayansarkar47/online-code-editor/assets/77672753/40ef93c8-5c37-4664-8433-f573cec2c019)
+![image](https://github.com/Harshit-here19/shadowCode/assets/125533407/1deacb40-a38c-499a-bbf7-61038016edd5)
+
 
 Here is the [LIVE Deployed Link](https://opeditor.vercel.app/) of the IDE
 
