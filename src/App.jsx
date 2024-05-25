@@ -56,10 +56,7 @@ function App() {
       <div className="flex flex-row justify-between p-5 text-3xl">
         <h1 className="font-bold ">
           Shadow-
-          <span className="text-purple-800 font-bold ">
-            CODE 🔥
-            <img src="/Untitled.png" alt="" />
-          </span>
+          <span className="text-purple-800 font-bold ">CODE 🔥</span>
         </h1>
         <a
           href="https://github.com/Harshit-here19/shadowCode"
@@ -73,7 +70,7 @@ function App() {
       </div>
       <form onSubmit={handleSubmit} className="" method="post">
         <Editor
-          className="border-2 m-1 mx-4 h-52 shadow-xl focus:outline-none bg-black"
+          className="border-2 m-1 mx-4 h-52 shadow-xl focus:outline-none bg-white"
           value={inputText}
           onValueChange={(code) => setInputText(code)}
           highlight={(code) => highlight(code, languages.js)}
